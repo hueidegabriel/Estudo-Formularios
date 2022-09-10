@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Estudo sobre formulários</h1>
+    </header>
+
+    <main>
+            
+        <form action="formulário.php" method="post" autocomplete="on">
+            <fieldset id="dados">
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" placeholder="Escreva Seu Nome Completo" autocomplete="name" required>
+            
+                </p>
+                    
+                <p>
+                    <label for="iidade">Idade:</label>
+                    <input type="number" name="idade" id="iidade" placeholder="Sua Idade (+12)" required min="12">
+                </p>
+
+                <p>
+                    <label for="inascimento">Nascimento:</label>
+                    <input type="date" name="nascimento" id="inascimento" placeholder="Data de nascimento" required autocomplete="bday">
+                </p>
+
+                <p>
+                    <label for="imae">Nome da Mãe:</label>
+                    <input type="text" name="mae" id="imae" placeholder="Nome da mãe" required>
+                </p>
+
+                <p>
+                    <label for="ipai">Nome do Pai:</label>
+                    <input type="text" name="pai" id="ipai" placeholder="Nome do Pai">
+                </p>
+
+                <p>
+                    <label for="isexo">Sexo:</label>
+                    <input type="radio" name="sexo" id="isexo" value="feminino"> feminino
+                    <input type="radio" name="sexo" id="isexo" value="masculino"> masculino
+                </p>
+            </fieldset>
+
+            <fieldset id="hobbies">
+                <legend>Hobbies</legend>
+                <p>
+                    <label for="iHobbies">Hobbies:</label> <br><br>
+                    <input type="checkbox" name="futebol" id="ifutebol" value="fuetebol"> Futebol <br>
+                    <input type="checkbox" name="jogos" id="ijogos" value="jogos"> Jogos <br>
+                    <input type="checkbox" name="livros" id="ilivros" value="livros"> Livros <br>
+                    <input type="checkbox" name="cinema" id="icinema" value="cinema"> Cinema <br>
+                    <input type="checkbox" name="videogame" id="ivideogame" value="videogame"> Video Game <br>
+                    <input type="checkbox" name="basquete" id="ibasquete" value="basquete"> Basquete <br>
+                </p>
+            </fieldset>
+
+            <fieldset id="satisfacao">
+                <legend >Sua Satisfação</legend>
+                <p>
+                    <label for="satisf">Seu Nível de Satisfação (1-5):</label><br><br>
+                    <input type="range" min="1" max="5" name="satisf" id="isatisf">
+
+                </p>
+            </fieldset>
+
+            
+            <div class="botoes">
+                <input type="submit" value="Enviar" name="enviar" id="ienviar">
+                <input type="reset" value="Limpar" name="limpa" id="ilimpa">
+            </div>
+            
+                
+        </form>
+        
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: white;
+    color: rgb(76, 167, 136);
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.479);
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 0.95rem;
+}
+main{
+    background-color: white;
+    color: rgb(76, 167, 136);
+    margin: auto;
+    margin-top: 25px;
+    align-items: center;
+    width: 90vw;
+    height: 85vh;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.479);
+    padding-top: 30px;
+    max-width: 800px;
+}
+fieldset{
+    border: 1px solid salmon;
+    margin: auto;
+    width: 800px;
+    max-width: 40vw;
+    min-width: 300px ;
+    height: 24vh;
+    align-items: center;
+    padding-top: 10px;
+}
+
+fieldset > legend{
+    color: rgb(76, 167, 136);
+    font-weight: bolder;
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+#dados{
+    text-align: left;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+#dados p {
+    margin-top: 15px;
+}
+
+#hobbies{
+    text-align: left;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+#hobbies p {
+    margin-top: 15px;
+}
+
+#satisfacao{
+    text-align: left;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#satisfacao p {
+    margin-top: 70px;
+    
+}
+
+.botoes {
+    text-align: center;
+    
+}
+
