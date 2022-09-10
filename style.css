@@ -98,6 +98,7 @@ fieldset > legend{
     width: 60px;
     text-decoration: underline;
     font-weight: bolder;
+    cursor:pointer;
     background-color: aquamarine;
     color: salmon;
     border-radius: 5%;
