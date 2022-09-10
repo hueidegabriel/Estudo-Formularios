@@ -67,7 +67,8 @@
                 <legend >Sua Satisfação</legend>
                 <p>
                     <label for="satisf">Seu Nível de Satisfação (1-5):</label><br><br>
-                    <input type="range" min="1" max="5" name="satisf" id="isatisf">
+                    <input type="range" min="1" max="5" name="satisf" id="isatisf" oninput="inum.innerHTML = Number(isatisf.value)">
+                    <output id="inum">5</output>
 
                 </p>
             </fieldset>

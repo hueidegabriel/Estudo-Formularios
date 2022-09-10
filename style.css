@@ -87,8 +87,19 @@ fieldset > legend{
     
 }
 
-.botoes {
+.botoes{
     text-align: center;
-    
+}
+
+.botoes input {
+    margin: auto;
+    border: none;
+    height: 20px;
+    width: 60px;
+    text-decoration: underline;
+    font-weight: bolder;
+    background-color: aquamarine;
+    color: salmon;
+    border-radius: 5%;
 }
 
